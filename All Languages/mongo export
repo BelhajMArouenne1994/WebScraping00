@@ -1,0 +1,29 @@
+mongoexport --db E-GOLF_english --collection Tweets --type=csv --fields _id,text,ID,shares,likes,date,user_id,name --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/E-GOLF-english-tweets.csv
+mongoexport --db E-GOLF_french --collection Tweets --type=csv --fields _id,text,ID,shares,likes,date,user_id,name --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/E-GOLF-french-tweets.csv
+mongoexport --db e-golf_forum --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/myvwegolf-forum.csv
+mongoexport --db e-golf_forum_voiture_propre --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/e-golf_forum_voiture_propre.csv
+
+mongoexport --db E-Golf_FB --collection post --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/e-golf_fb_posts.csv
+mongoexport --db E-Golf_FB --collection comments --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/E-GOLF/'E-GOLF (Forums) (anglais)'/DataSets/e-golf_fb_comments.csv
+
+
+mongoexport --db zoe-elbilforum --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/‎zoe_elbilforum.csv
+
+mongoexport --db zoe_forum --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/zoe_forum.csv
+
+mongoexport --db zoe-goingelectric --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/zoe_goingelectric.csv
+
+mongoexport --db zoe_forum_voiture_propre --collection comments --type=csv --fields Date,Text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/zoe_forum_voiture_propre.csv
+
+
+mongoexport --db ‎Renault_ZOE_Francophone_FB_post+comment --collection post --type=csv --fields text,date --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/Renault_ZOE_Francophone_FB_posts.csv
+mongoexport --db ‎Renault_ZOE_Francophone_FB_post+comment --collection comments --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/‎Renault_ZOE_Francophone_FB_comments.csv
+
+
+mongoexport --db ‎Renault_Zoe-Italia_e_Svizzera_FB_post+comment --collection post --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/Renault_Zoe-Italia_e_Svizzera_fb_posts.csv
+mongoexport --db ‎Renault_Zoe-Italia_e_Svizzera_FB_post+comment --collection comments --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/Renault_Zoe-Italia_e_Svizzera_fb_comments.csv
+
+
+mongoexport --db '‎Official_Renault_Zoe_&_ZE_Owners_Club_(RZOC)_FB_post+comment' --collection post --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/ZE_Owners_Club_fb_posts.csv
+mongoexport --db '‎Official_Renault_Zoe_&_ZE_Owners_Club_(RZOC)_FB_post+comment' --collection comments --type=csv --fields date,text --out /home/marwen/PycharmProjects/Renault/CARS/ZOE/'ZOE (Forums) (anglais)'/DataSets/ZE_Owners_Club_fb_comments.csv
+
