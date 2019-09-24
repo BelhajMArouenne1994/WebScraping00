@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/All Languages/Collecting Data/TweetScraper" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/All Languages/Collecting Data/TweetScraper (French)" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/All Languages/Collecting Data/amazon-reviews-All" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Languages/Collecting_Data/TweetScraper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Languages/Collecting_Data/TweetScraper (French)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Collecting_Data/TweetScraper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Collecting_Data/TweetScraper (French)" vcs="Git" />
   </component>
 </project>

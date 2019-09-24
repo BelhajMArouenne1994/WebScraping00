@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ZOE.iml" filepath="$PROJECT_DIR$/.idea/ZOE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WebScraping.iml" filepath="$PROJECT_DIR$/.idea/WebScraping.iml" />
     </modules>
   </component>
 </project>

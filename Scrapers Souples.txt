@@ -1,5 +1,0 @@
-Faire une liste des grupes facebook dans le scraper:
-	chaque nom dans cette liste est liée à un ensemble d'arguments:
-		Par exemple : nom de la base, titre de la collection, langue ...
-Ensuite il suffit juste de lancer la commande scrapy crawl cars - arguments ()
-
