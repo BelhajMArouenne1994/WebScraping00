@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93f53902-6338-4837-b5db-64c7b6a9556e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/BrandWatch/brandy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/spiders/Cars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/Facebook/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/TweetScraper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/TweetScraper/Downloading_proxies_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/TweetScraper/proxy-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/TweetScraper/useragents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/Downloading_proxies_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/spiders/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/proxy-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/useragents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/Downloading_proxies_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/spiders/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/proxy-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/useragents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/Downloading_proxies_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/spiders/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/proxy-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/useragents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/Downloading_proxies_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/proxy-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/spiders/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collecting_Data/speakev/speakev/useragents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Processing/CleanDataSets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Processing/ReviewsSegmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery/DataSets/Reviews_final.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery/DataSets/battery_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/battery_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/brakes/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/brakes/DataSets/brakes_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/brakes/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/brakes/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/brakes_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/dealer/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/dealer/DataSets/dealer_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/dealer/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/dealer/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/dealer_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox/DataSets/engine_gearbox_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/equipements/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/equipements/DataSets/equipements_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/equipements/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/equipements/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/equipements_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/interior_seats/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/interior_seats/DataSets/interior_seats_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/interior_seats/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/interior_seats/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/interior_seats_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/1_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/2_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/3_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/4_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/5_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/6_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/7_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/CONV1D.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/Word2vVec.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/battery_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/brakes_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/dealer_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/doc_embeddings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/engine_gearbox_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/equipements_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/interior_seats_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/premier essai/price_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/price/DataSets/Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/price/DataSets/price_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/price/coefs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/price/keywords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TrainingDataSets/price_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Word2vVec.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/doc_embeddings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ZOE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ground</find>
+      <find>extract_tfidf_keywords</find>
+      <find>flatten</find>
+      <find>top_n_keywords</find>
+      <find>top_n_keywords.</find>
+      <find>seat</find>
+      <find>0.00</find>
+      <find>minimum_term_frequency</find>
+      <find>LSTM</find>
+      <find>72</find>
+      <find>app</find>
+      <find>my zoe</find>
+      <find>catalyt</find>
+      <find>µµ</find>
+      <find>clean_dataset_chunck</find>
+      <find>,,</find>
+      <find>print</find>
+      <find>\Outputs\Clusters</find>
+      <find>Clusters</find>
+      <find>Clusters\</find>
+      <find>\Clusters</find>
+      <find>sni</find>
+      <find>top_n_keywords_concat</find>
+      <find>100</find>
+      <find>talos</find>
+      <find>stop</find>
+      <find>ENGLISH_STOP_WORDS</find>
+      <find>stopWords</find>
+      <find>list_stop_words</find>
+      <find>zoe</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Key_words.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Automatic.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Review.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Outputs/Clusters/price/price.csv" />
+        <option value="$PROJECT_DIR$/Data_Processing/reviews_segmentation.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/BrandWatch/Tkinter.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/BrandWatch/BrandWatch_data.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/middlewares.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/settings.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Outputs/DataSets/Dataset.csv" />
+        <option value="$PROJECT_DIR$/LSTM/TrainingDataSets/battery_clean.csv" />
+        <option value="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/pipelines.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/pipelines.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/pipelines.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/pipelines.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/caradisiac/caradisiac/pipelines.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/settings.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/caradisiac/caradisiac/settings.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/ReviewManager.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/MongoData.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/caradisiac/caradisiac/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/elbilforum/elbilforum/elbilforum/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/spiders/Cars.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/TweetScraper/TweetScraper/items.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/Tkinter.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/Facebook/Facebook/items.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Flatten.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/KeyWords.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/KeyWords2.py" />
+        <option value="$PROJECT_DIR$/LSTM/TrainingDataSets/interior_seats/keywords.csv" />
+        <option value="$PROJECT_DIR$/LSTM/Training.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/caradisiac/caradisiac/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/goingelectric/goingelectric/goingelectric/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/CleanDataSets.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Tkinter.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/TweetScraper/TweetScraper/spiders/TweetCrawler.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/BrandWatch/brandy.py" />
+        <option value="$PROJECT_DIR$/Models/Word2Vec.py" />
+        <option value="C:/ProgramData/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py" />
+        <option value="$PROJECT_DIR$/Models/256-5-20/091719140922.csv" />
+        <option value="$PROJECT_DIR$/Models/256-5-20/091719150014.csv" />
+        <option value="$PROJECT_DIR$/Models/256-5-20/091919114159.csv" />
+        <option value="$PROJECT_DIR$/Models/Training.py" />
+        <option value="$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/ReviewsSegmentation.py" />
+        <option value="$PROJECT_DIR$/Data_Processing/Clustering.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Collecting_Data" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Data_Processing/KeyWords.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\Collecting_Data" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\Data_Processing" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\Models" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\LSTM\Test" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\LSTM" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\EVs" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\Collecting_Data" />
+      <recent name="C:\Users\p100623\PycharmProjects\WebScraping\LSTM" />
+      <recent name="C:\Users\p100623\PycharmProjects\ZOE\All Languages\Collecting Data" />
+      <recent name="C:\Users\p100623\PycharmProjects\ZOE\All Languages\Collecting Data\Facebook\Facebook" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Tkinter">
+    <configuration name="Tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Processing/Tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tkinter5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Collecting_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collecting_Data/Tkinter5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tkinter7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Collecting_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collecting_Data/Tkinter7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tkinter8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Collecting_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collecting_Data/Tkinter8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tkinter9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Collecting_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collecting_Data/Tkinter9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Tkinter" />
+        <item itemvalue="Python.Tkinter9" />
+        <item itemvalue="Python.Tkinter8" />
+        <item itemvalue="Python.Tkinter5" />
+        <item itemvalue="Python.Tkinter7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93f53902-6338-4837-b5db-64c7b6a9556e" name="Default Changelist" comment="" />
+      <created>1563520468963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563520468963</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Facebook 1">
+      <created>1564391012373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564391012373</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final version">
+      <created>1569399946788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569399946789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.5020161" side_tool="true" weight="0.21994716" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49798387" visible="true" weight="0.2318362" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91743726" visible="true" weight="0.41018388" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497358" visible="true" weight="0.33097595" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.71136063" weight="0.31117398" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50264204" side_tool="true" visible="true" weight="0.33097595" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.9114927" weight="0.3536068" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.5020161" side_tool="true" weight="0.21994716" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49798387" visible="true" weight="0.30977544" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91743726" visible="true" weight="0.36350778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993395" weight="0.18811882" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" weight="0.31117398" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13804491" side_tool="true" weight="0.26874116" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.8619551" weight="0.31400284" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/All Languages/Collecting Data/fbcrawl" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting Data/Facebook" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting Data/TweetScraper" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting Data/TweetScraper (French)" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting Data/amazon-reviews-All" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting_Data/TweetScraper" />
+      <path value="$PROJECT_DIR$/All Languages/Collecting_Data/TweetScraper (French)" />
+      <path value="$PROJECT_DIR$/Collecting_Data/TweetScraper" />
+      <path value="$PROJECT_DIR$/Collecting_Data/TweetScraper (French)" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Facebook 1" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Collecting_Data/Tkinter.py</url>
+          <line>431</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Processing/ReviewsSegmentation.py</url>
+          <line>241</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/Tkinter7.py" />
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/BrandWatch/brandy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#185#297#0" />
+            <element signature="e#329#623#0" />
+            <element signature="e#675#1243#0" />
+            <element signature="e#1283#1664#0" />
+            <element signature="e#1729#1937#0" />
+            <element signature="e#1996#2192#0" />
+            <element signature="e#2243#2716#0" />
+            <element signature="e#2823#3547#0" />
+            <element signature="e#3642#4206#0" />
+            <element signature="e#4249#4510#0" />
+            <element signature="e#4548#4614#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter2.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter3.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter4.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter5.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter6.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter7.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/CleanDataSets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Word2Vec_GridSearch.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Outputs/Flatten/keywords.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/battery_clean.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-7717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/brakes/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1469367" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/engine_gearbox/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1236059" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/equipements/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-738979" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/interior_seats/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-801369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/dealer/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1268495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/price/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1167379" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/1/091619164751.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091619164932.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091619165819.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091619165838.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/Word2Vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="162" lean-forward="true" selection-start-line="152" selection-end-line="162" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/battery/coefs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="3286" column="75" selection-start-line="3286" selection-start-column="75" selection-end-line="3286" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/aaa/091719132554.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091719120027.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091719120207.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091719132717.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091719132851.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/1/091719133251.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/256-5-20/091719140922.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/256-5-20/091719141441.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/256-5-20/091719150014.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/256-5-20/091919154910.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/256-5-20/091919114159.csv" />
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/automobile_propre/automobile_propre/automobile_propre/spiders/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/doc_embeddings.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TrainingDataSets/battery/keywords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="330">
+          <caret line="63072" column="8" selection-start-line="63072" selection-start-column="8" selection-end-line="63072" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="392" column="10" lean-forward="true" selection-start-line="392" selection-start-column="10" selection-end-line="392" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#8447#11134#1" />
+            <element signature="e#11224#12675#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/confusion_matrix.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/Tkinter9.py" />
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/Tkinter8.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Outputs/DataSets/Dataset_clean.csv" />
+    <entry file="file://$PROJECT_DIR$/Collecting_Data/speakev/speakev/speakev/spiders/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Outputs/DataSets/Dataset.csv" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Outputs/Classes/battery/battery_Category-VS-other categories.html" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Outputs/Classes/Sentiments.png" />
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="118" column="37" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Processing/ReviewsSegmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
